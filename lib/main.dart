@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:temurambu/pages/home_search.dart';
 import 'package:temurambu/pages/splash_page.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashPage(),
+      home: HomeSearch(),
     );
   }
 }
