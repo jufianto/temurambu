@@ -10,6 +10,6 @@ TextStyle defaultTextStyle = TextStyle(
   color: darkNavy,
 );
 
-
-
 FontWeight medium = FontWeight.w500;
+FontWeight regular = FontWeight.w400;
+FontWeight bold = FontWeight.w900;

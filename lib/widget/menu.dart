@@ -17,16 +17,11 @@ Widget menuNavagation() {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               SizedBox(),
-              Container(
+              Image.asset(
+                "assets/icon_cari.png",
                 width: 30,
                 height: 40,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: AssetImage(
-                      'assets/icon1.png',
-                    ),
-                  ),
-                ),
+                color: yellowColor,
               ),
               Text(
                 "Cari Rambu",
@@ -51,16 +46,11 @@ Widget menuNavagation() {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               SizedBox(),
-              Container(
+              Image.asset(
+                "assets/icon_list.png",
                 width: 30,
                 height: 40,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: AssetImage(
-                      'assets/icon2.png',
-                    ),
-                  ),
-                ),
+                color: Colors.white,
               ),
               Text(
                 "List Rambu",

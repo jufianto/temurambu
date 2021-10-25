@@ -1,0 +1,39 @@
+{
+    "response": [
+        {
+            "uid": "123456",
+            "nama_rambu": "Dilarang Berhenti",
+            "alamat_rambu": "Jalan Tanjung Batu",
+            "langtitude": "0.513483248676435",
+            "longtitue": "101.45316838624329"
+        },
+        {
+            "uid": "123456",
+            "nama_rambu": "Dilarang Melintas",
+            "alamat_rambu": "Jalan Siak 2",
+            "langtitude": "0.5169197667103157 ",
+            "longtitue": "101.45145700552807"
+        },
+        {
+            "uid": "123456",
+            "nama_rambu": "Boleh Parkir",
+            "alamat_rambu": "Jalan Siak 1",
+            "langtitude": "0.520836228351894 ",
+            "longtitue": "101.44893047214833"
+        },
+        {
+            "uid": "123456",
+            "nama_rambu": "Boleh Main",
+            "alamat_rambu": "Pasar Arengka",
+            "langtitude": "0.5156327554255989",
+            "longtitue": "101.45190798242919"
+        },
+        {
+            "uid": "123456",
+            "nama_rambu": "Dilarang Berjualan",
+            "alamat_rambu": "Jalan Tanjung Jati",
+            "langtitude": "0.5073823320701174",
+            "longtitue": "101.44844349377067"
+        }
+    ]
+}
