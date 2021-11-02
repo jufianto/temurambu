@@ -13,10 +13,13 @@ class SearchRambuCubit extends Cubit<SearchRambuState> {
       emit(SearchRambuLoading());
 
       List<RambuModel> rambu = await RambuService().fetchRambu(text);
-
       emit(SearchRambuSucess(rambu));
     } catch (e) {
       emit(SearchRambuFailed(e.toString()));
     }
+  }
+
+  void emptyRambu() {
+    emit(SearchRambuLoading());
   }
 }

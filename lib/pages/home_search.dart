@@ -17,7 +17,6 @@ class HomeSearch extends StatefulWidget {
 }
 
 class _HomeSearchState extends State<HomeSearch> {
-
   @override
   void initState() {
     super.initState();
@@ -39,6 +38,8 @@ class _HomeSearchState extends State<HomeSearch> {
             cursorColor: darkNavy,
             onChanged: (String value) async {
               if (value == '') {
+                print('kosong');
+                context.read<SearchRambuCubit>().emptyRambu();
               }
               context.read<SearchRambuCubit>().fetchRambu(value);
             },
@@ -158,7 +159,6 @@ class _HomeSearchState extends State<HomeSearch> {
     }
 
     Widget builderRambu(BuildContext context, List<RambuModel> model) {
-      print(model.length);
       return Container(
         child: Column(
           children: model.map((RambuModel rmb) {
@@ -180,6 +180,7 @@ class _HomeSearchState extends State<HomeSearch> {
               ),
               child: BlocBuilder<SearchRambuCubit, SearchRambuState>(
                 builder: (context, state) {
+                  // print(state);
                   if (state is SearchRambuSucess) {
                     return builderRambu(context, state.rambu);
                   } else {

@@ -19,8 +19,8 @@ class RambuModel extends Equatable {
       : id = json['uid'],
         namaRambu = json['nama_rambu'],
         namaJalan = json['alamat_rambu'],
-        longtitude = json['langtitude'],
-        langtitude = json['longtitue'];
+        longtitude = json['latitude'],
+        langtitude = json['longitude'];
 
   // Map<String, dynamic> toJson() => {
   //       'id': id,
